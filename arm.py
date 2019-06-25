@@ -8,5 +8,5 @@ for i in range(num,num+1):
     sum += digit ** 3
     temp //= 10
   if num == sum:
-    print(num)
+    print(num,end=" ")
     
