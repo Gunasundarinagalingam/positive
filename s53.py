@@ -1,6 +1,6 @@
 num=int(input())
-length=len(num)
+ll=len(num)
 a=0
 for i in range(0,1):
-  a=a+int[num(i)]
+  a=a+int(num[i])
 print(a)
