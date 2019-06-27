@@ -1,6 +1,8 @@
-num=str(input())
-ll=len(num)
-a=0
-for i in range(0,1):
-  a=a+int(num[i])
-print(a)
+num=int(input())
+s=0
+i=0
+while num > 0:
+  i=num%10
+  num=num//10
+  s=s+i
+print(s)
