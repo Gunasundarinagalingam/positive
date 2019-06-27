@@ -1,5 +1,5 @@
 num=int(input())
-l=list(map(int,input().split()))
-l.sort()
-a=l[int(n/2)]
+list=[int(i) for i in input().split()]
+list.sort()
+a=list[int(num/2)]
 print(a)
