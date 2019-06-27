@@ -1,0 +1,5 @@
+num,num1=map(int,input().split())
+num2,num3=map(int,input().split())
+xx=abs(num-num2)
+yy=abs(num1-num3)
+print(xx,yy)
