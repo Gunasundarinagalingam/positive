@@ -1,4 +1,4 @@
-num=int(input())
+num=str(input())
 ll=len(num)
 a=0
 for i in range(0,1):
