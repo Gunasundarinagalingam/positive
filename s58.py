@@ -6,7 +6,7 @@ xx=0
 for i in num:
   if i == nn:
     xx=xx+1
-  if xx == 0:
-    print("no")
-  else:
-    print("yes")
+if xx == 0:
+  print("no")
+else:
+  print("yes")
