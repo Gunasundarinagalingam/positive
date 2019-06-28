@@ -1,4 +1,3 @@
-num,num1=map(int,input().split())
-ll=[int(i) for i in input().split()]
-lll=ll.count(12)
-print(lll)
+num=list(map(int,input().split()))
+num1=list(map(int,input().split()))
+print(num1.count(num[1]))
