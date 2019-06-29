@@ -1,2 +1,2 @@
-s=str(input())
-print(s[::-1])
+guna=str(input())
+print(guna[::-1])
