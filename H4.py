@@ -1,0 +1,2 @@
+iigg=input()
+print(iigg+".")
