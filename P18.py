@@ -1,7 +1,7 @@
 hhhh,eeee=map(int,input().split())
 ttt=[]
 xy=0
-for i in range(hhh):
+for i in range(hhhh):
     ttt.append(list(map(int,input().split())))   
 for i in range(hhhh):
     for j in range(eeee-1):
