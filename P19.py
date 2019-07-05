@@ -1,4 +1,4 @@
-vjj=int(input("k="))
+vjj=int(input())
 vkk=list()
 for i in range(vjj):
     bm=input().split()
