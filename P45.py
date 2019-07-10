@@ -1,9 +1,13 @@
-aaa = int(input())
-while aaa%10==0:
-    aaa=aaa//10
-aa=str(aaa)
-b=aaa[::-1]
-if aaa==b:
+vvj=input()
+if vvj==vvj[::-1]:
     print("yes")
 else:
-    print("no")
+    val=vvj.strip("0")
+    if val==val[::-1]:
+        print("yes")
+    else:
+        val=vvj.lstrip("0")
+        if val==val[::-1]:
+            print("yes")
+        else:
+            print("no")
