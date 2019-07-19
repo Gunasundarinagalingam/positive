@@ -10,7 +10,7 @@ for i in range(0,len(v)):
         try:
           b += v[p+i]
         except IndexError:
-            tt = t-1
+            tt = tt-1
             b +=v[tt]
       else:
         b += v[i]
