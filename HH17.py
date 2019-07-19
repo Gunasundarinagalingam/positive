@@ -1,6 +1,6 @@
-#include<iostream>
-#include<queue>
-#include<vector>
+#include<iostream.h>
+#include<queue.h>
+#include<vector.h>
 using namespace std;
 struct Node1{
     int data;
@@ -14,8 +14,8 @@ struct Node1{
 
 void insert(struct Node1* root,int key)
 {
-    if(root->left==NULL){root->left=new Node(key); return;}
-    if(root->right==NULL){root->right=new Node(key); return;}
+    if(root->left==NULL){root->left=new Node1(key); return;}
+    if(root->right==NULL){root->right=new Node1(key); return;}
     if(key<=root->data){insert(root->left,key); }
     else{insert(root->right,key);}
 }
