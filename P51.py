@@ -16,5 +16,5 @@ for x in range(0,len(l3)):
 nn4=""
 for x in range(0,len(l3)):
         k=l3[x::]
-        nn4=nn4+str(n3(k))+" "
+        nn4=nn4+str(n6(k))+" "
 print(nn4.strip())
