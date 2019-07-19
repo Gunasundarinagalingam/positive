@@ -1,0 +1,9 @@
+nn=input()
+li=list(map(int,nn))
+nsum=sum(li)
+nsum=str(nsum)
+rev=nsum[::-1]
+if(nsum==rev):
+    print("YES")
+else:
+    print("NO")
