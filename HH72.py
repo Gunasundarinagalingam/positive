@@ -1,6 +1,6 @@
-ss=input()
-ss=ss.replace(".","")
-l=ss.split()
+sss=input()
+sss=sss.replace(".","")
+l=sss.split()
 k=""
 for i in range(1,len(l)+1):
     if i%2!=0:
